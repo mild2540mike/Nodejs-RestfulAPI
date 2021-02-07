@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 8080;
 
 var publicDir = require('path').join(__dirname, '/public_images/');
 app.use(express.static(publicDir));
